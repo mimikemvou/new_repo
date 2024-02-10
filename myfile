@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v2
 kind: Config
 clusters:
 - name: my-cluster
@@ -13,6 +13,6 @@ users:
 contexts:
 - name: my-context
   context:
-    cluster: my-cluster
-    user: my-user
+    cluster: my-clusters
+    user: my-users
 current-context: my-context
